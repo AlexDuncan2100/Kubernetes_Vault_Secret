@@ -4,7 +4,7 @@
 
 # Prerequisites:
 
-For the example configuration, you using  can use minikube. You can follow the instructions below to install minikube.
+For the example configuration, you can use minikube. You can follow the instructions below to install minikube.
 
 # Minikube Installation On EC2:
 
