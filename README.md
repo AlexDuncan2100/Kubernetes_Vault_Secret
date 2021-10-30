@@ -1,10 +1,14 @@
+# Kubernetes extensibility with Secret Store CSI Driver:
+
+![Kubernetes_Vault_With_CSI](Secret_Store_CSI_Driver.png) 
+
 # Prerequisites:
 
-For the example configuration, you will be using minikube. You can follow the Get Started docs to install minikube or just make sure you have the required prerequisites:
+For the example configuration, you using  can use minikube. You can follow the instructions below to install minikube.
 
 # Minikube Installation On EC2:
 
-Let’s start with launching EC2 instance and doing SSH into it, I’m starting a micro instance having minimum of two 2 cores of CPU of ubuntu 18+ LTS version for this demo.
+Let’s start with launching EC2 instance and doing SSH into it, you have to launch a micro instance having minimum of two 2 cores of CPU of ubuntu 18+ LTS version for this demo.
 
 # Step 1. Install Kubectl command line client for minikube, which is used to interact with kubernete’s cluster:
 curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl
@@ -42,6 +46,7 @@ minikube start --vm-driver=none
 
 minikube status
 
+# If you already have Kubernetes Cluster you can go on from this part:
 # Installlation of Helm in Linux machine:
 
 curl -sSL https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 | bash
