@@ -57,12 +57,6 @@ helm repo add stable https://charts.helm.sh/stable
 
 helm search repo stable
 
-helm completion bash >> ~/.bash_completion
-. /etc/profile.d/bash_completion.sh
-. ~/.bash_completion
-source <(helm completion bash)
-
-
 # Run Vault in Kubernetes:
 
 Getting Vault up and running in Kubernetes is extremely easy when using the provided Helm chart. This is our recommended way to install and configure Vault in Kubernetes.
