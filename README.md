@@ -16,7 +16,7 @@ curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s http
 # Step 2. change permission of the binaries, and move to user folder:
 
 chmod +x ./kubectl
-sudo mv ./kubectl /usr/local/bin/kubectl
+sudo mv ./kubectl /usr/local/kubectl
 
 # Step 3. Install docker, there are many ways to do it. We will use yum package.
 
